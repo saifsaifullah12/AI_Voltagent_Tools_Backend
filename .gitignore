@@ -153,3 +153,6 @@ dist
 
 # cursor
 .cursor
+
+.env
+node_modules
