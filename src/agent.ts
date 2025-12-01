@@ -1,6 +1,5 @@
 import { Agent } from "@voltagent/core";
 import { createOpenAI } from "@ai-sdk/openai";
-import { memory } from "./memory/libsqlMemory";
 import { mathTool } from "./tools/mathTool";
 import { notesTool } from "./tools/notesTool";
 import { weatherTool } from "./tools/weatherTool";
@@ -40,5 +39,4 @@ Be conversational and helpful.`,
     weatherTool,
   ],
 
-  memory: memory,
 });
